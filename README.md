@@ -4,7 +4,6 @@ This project builds a machine learning model that assigns **credit scores (0–1
 - Higher scores indicate **reliable, consistent, and responsible usage**
 - Lower scores may suggest **risky, bot-like, or exploitative behavior**
 
----
 
 ## 📁 Dataset
 
@@ -16,7 +15,6 @@ This project builds a machine learning model that assigns **credit scores (0–1
   - `action`, `amount`, `assetSymbol`, `assetPriceUSD`
   - `timestamp_utc`, `protocol`, `network`, `txHash`, etc.
 
----
 
 ## ⚙️ Features Engineered
 
@@ -26,7 +24,6 @@ We aggregate transactions per wallet to generate features:
 - **Volatility Metrics**: Standard deviation in amount and price
 - **Price Behavior**: Average, max, min of `assetPriceUSD`
 
----
 
 ## 🤖 Model
 
@@ -35,7 +32,6 @@ We aggregate transactions per wallet to generate features:
 - **Input Features**: Aggregated transaction statistics
 - **Output**: `predicted_credit_score` for each wallet
 
----
 
 ## 📊 Visualization
 
@@ -44,7 +40,6 @@ We aggregate transactions per wallet to generate features:
   - `amount` over time
   - `assetPriceUSD` over time
 
----
 
 ## 🚀 How to Run
 
